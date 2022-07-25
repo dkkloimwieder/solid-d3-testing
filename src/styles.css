@@ -1,0 +1,9 @@
+.circ {
+    animation: move 2s ease infinite;
+}
+
+@keyframes move {
+    50% {
+        transform: translate(200px, -200px);
+    }
+}
